@@ -73,7 +73,7 @@ class RequestApi:
             # desta vez para obter detalhes sobre uma pessoa
             # específica usando o ID armazenado em results.
             endpoint = f'https://api.themoviedb.org/3/person/{results}?api_key={key}'
-            # Novamente, uma solicitação GET é feita usando a URL armazenada em endpoint e a resposta é     decodificada em um dicionário em Python e armazenada em data.
+            # Novamente, uma solicitação GET é feita usando a URL armazenada em endpointrbrbradtb2rtbqr e a resposta é     decodificada em um dicionário em Python e armazenada em data.
             r = requests.get(endpoint)
             # Finalmente, a variável results é redefinida como um dicionário contendo informações sobre a pessoa, incluindo o ID, nome, caminho da imagem de perfil, popularidade, biografia, data de nascimento e local de nascimento. 
             data = r.json()
