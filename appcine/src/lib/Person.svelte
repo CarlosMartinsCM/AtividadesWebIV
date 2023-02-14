@@ -53,6 +53,7 @@
                     <li>ID: {person.id}</li>
                     <li>Data de Nascimento: {formatDate(person.birthday)}</li>
                     <li>Local de Nascimento: {person.local_nascimento}</li>
+                    <li>Popularidade: {person.popularidade}</li>
                 </ul>
             </div>
             <div class="bio">

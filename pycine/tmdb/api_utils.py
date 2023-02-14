@@ -81,7 +81,7 @@ class RequestApi:
                 'imagem': data['profile_path'],
                 'popularidade': data['popularity'],
                 'biografia': data['biography'], 'birthday': data['birthday'],
-                'local_nascimento': data['place_of_birth']}
+                'local_nascimento': data['place_of_birth'], 'popularidade': data['popularity']}
             # Este dicionário é então retornado como resultado do método.    
             return results
 
